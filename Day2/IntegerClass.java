@@ -21,3 +21,16 @@ public class IntegerClass {
 	}
 
 }
+
+/*
+ * 
+ * 
+ * 
+Orignal value : 10
+Converted int : 10
+Double Value : 10.0
+Byte value : 10
+long value  : 10
+ * 
+ * 
+ */
