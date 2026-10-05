@@ -8,7 +8,7 @@ public class ArrayExceptions {
 		int [] arr3 = {20,30};
 		
 		
-		System.out.println(arr1[2]);
+		System.out.println(arr1[2]); //java.lang.NegativeArraySizeException
 		System.out.println(arr2[2]);
 		//System.out.println(arr3[2]); //java.lang.ArrayIndexOutOfBoundsException
 		
