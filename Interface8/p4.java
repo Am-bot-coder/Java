@@ -1,6 +1,6 @@
 package Interface8;
 
-
+//Super Clash Wins
 
 class I7{
 	public void add() {
