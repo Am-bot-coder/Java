@@ -4,14 +4,9 @@ class MyRunnable implements Runnable{
 
 	@Override
 	public void run() {
-		for(int i=1;i<=10;i++) {
-			System.out.println("t->"+i);
-			try {
-				Thread.sleep(1000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+		for(int i=1;i<=5;i++) {
+			System.out.println("t2->"+i);
+			d.delay(1000);
 		}
 		
 	}
@@ -37,6 +32,9 @@ public class RunnableThread {
 
 //t->1
 //t->1
+
+
+
 //t->2
 //t->2
 //t->3
